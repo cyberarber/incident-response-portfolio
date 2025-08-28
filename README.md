@@ -1,27 +1,24 @@
-# Privilege Escalation Investigation
+# SOC Incident Response Portfolio
 
-**Date:** August 27, 2025  
-**Platform:** Elastic Stack  
 **Analyst:** Arber Kycyku  
+**Contact:** ak@arb3r.com | [LinkedIn](https://linkedin.com/in/arberkycyku)
 
-## Detection Query
-event.code: "4672" OR event.code: "4624"
+## Investigation Cases
 
-## Key Findings
-- 2,624 security events detected
-- Event 4672: Special privileges assigned to new logon
-- Event 4624: Successful logon
-- Host: DESKTOP-C4AJTEF (Windows 11 Enterprise)
+### [Privilege Escalation Detection](./privilege-escalation/)
+- **Date:** August 27, 2025
+- **Platform:** Elastic Stack & TheHive
+- **Severity:** High
+- **Events Analyzed:** 2,624
 
-## Investigation Notes
-Special privilege events (4672) indicate admin rights were granted. This is normal for legitimate admin users but suspicious when:
-- Occurring outside business hours
-- Associated with service accounts
-- Following failed login attempts
+## Tools & Technologies
+- Elasticsearch/Kibana (Log Analysis)
+- TheHive (Case Management)
+- Wazuh (SIEM)
+- MITRE ATT&CK Framework
 
-## Response Actions
-1. Verified user identity
-2. Checked authorization for elevated access
-3. Reviewed audit logs for suspicious commands
-4. No malicious activity confirmed
-
+## Skills Demonstrated
+- Security event correlation
+- Log analysis and investigation
+- Incident documentation
+- Threat hunting
