@@ -3,14 +3,17 @@
 **Analyst:** Arber Kycyku  
 **Contact:** ak@arb3r.com
 
-## Cases
+## Documented Incident Cases
 
-1. [Privilege Escalation](./privilege-escalation/) - Windows Event 4672
-2. [Failed Authentication](./case-002-failed-auth/) - Windows Event 4625
-3. Coming Soon
+| Case | Description | Severity | Events |
+|------|-------------|----------|--------|
+| [001 - Privilege Escalation](./privilege-escalation) | Windows Event 4672 Investigation | High | 2,624 |
+| [002 - Failed Authentication](./case-002-failed-auth) | Windows Event 4625 Analysis | Medium | 1 |
+| 003 - Coming Soon | TBD | TBD | TBD |
 
-## Tools Used
-- Elasticsearch & Kibana
-- TheHive Case Management
-- Wazuh SIEM
+## Technologies Used
+- Elasticsearch & Kibana (Log Analysis)
+- TheHive (Case Management)  
+- Wazuh (SIEM)
+- Windows Event Logs
 
