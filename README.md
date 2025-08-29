@@ -23,3 +23,5 @@
 - Windows Event Logs (Winlogbeat)
 - MITRE ATT&CK Framework
 
+
+| [011 - Certutil Detection](./case-011-certutil-detection) | Living-off-the-Land Binary Detection | 1 | Critical |
