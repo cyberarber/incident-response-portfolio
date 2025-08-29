@@ -3,25 +3,17 @@
 **Analyst:** Arber Kycyku  
 **Contact:** ak@arb3r.com
 
-## Completed Investigations
+## Investigation Cases
 
-| Case | Description | Events Analyzed | Status |
-|------|-------------|-----------------|---------|
-| [001 - Privilege Escalation](./privilege-escalation) | Windows Event 4672 Analysis | 2,624 | Resolved |
-| [002 - Failed Authentication](./case-002-failed-auth) | Windows Event 4625 Investigation | 1 | Resolved |
-| [003 - Network Analysis](./case-003-network-analysis) | Network Connection Baseline | 30,210 | Documented |
+| Case | Description | Events | Severity |
+|------|-------------|--------|----------|
+| [001 - Privilege Escalation](./privilege-escalation) | Windows Event 4672 | 2,624 | High |
+| [002 - Failed Authentication](./case-002-failed-auth) | Windows Event 4625 | 1 | Medium |
+| [003 - Network Analysis](./case-003-network-analysis) | Network Connections | 30,210 | Low |
+| [012 - LOLBins Detection](./case-012-lolbins-comprehensive) | Living-off-the-Land Binaries | 8 | Critical |
 
-## Skills Demonstrated
-- Large-scale log analysis (30,000+ events)
-- Security event correlation
-- Baseline establishment
-- Threat hunting methodologies
+## Metrics
+- Total Events Analyzed: 33,000+
+- Critical Findings: 2
+- Detection Coverage: MITRE ATT&CK 15+ techniques
 
-## Tools Used
-- Elasticsearch & Kibana
-- TheHive Case Management
-- Windows Event Logs (Winlogbeat)
-- MITRE ATT&CK Framework
-
-
-| [011 - Certutil Detection](./case-011-certutil-detection) | Living-off-the-Land Binary Detection | 1 | Critical |
